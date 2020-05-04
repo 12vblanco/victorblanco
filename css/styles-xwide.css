@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f7f8;
+  }
+
+/* Navbar */
+#navbar {
+    width: 100vw;
+    vertical-align: middle;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    background-color: #f4f7f8;
+}
+.logo {
+    margin-top: 0.6rem;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%; 
+    border-bottom: 1px solid #f1f7fa;
+}
+.logo-img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 3.4rem;    
+}
+.logo-text {
+    display: inline-block;
+    font-size: 2.4rem;
+    width: auto;
+    vertical-align: middle;
+    text-align: center;    
+}
+.menu-container {
+    margin: auto;
+    width: 100vw;
+    border-bottom: 1px solid #f1f7fa;    
+}
+.menu {
+    display: inline-block;
+}
+.menu-left {
+    display: inline-block;
+    width: auto;
+    text-align: left;
+    width: 40vw;
+}
+.menu-right {
+    display: inline-block;
+    width: auto;
+    text-align: right;
+}
+.menu li {
+    display: inline-block;
+    margin-bottom: 6px;
+    padding: 0 4px;
+}
+.fa-instagram {
+    font-size: 1.4rem;
+    vertical-align: middle;
+}
+.fa-envelope {
+    font-size: 1.4rem;
+    vertical-align: middle;
+
+}
+.menu-item a:hover,
+.menu-item a:active,
+.fa-instagram:hover,
+.fa-instagram:active,
+.fa-envelope:hover,
+.fa-envelope:active {
+    color: #a52a2a;
+}
+.active-menu a{
+    color: #a52a2a;
+}
+
+/* Showcase */
+.showcase {
+    display: flex;
+    position: relative;
+    top: 9rem;    
+    max-width: 750px;
+    text-align: center;
+    margin: auto;
+}
+.showcase-galery {
+    flex-wrap: wrap;
+}
+
+.showcase-img {
+    width: 225px;
+    height: 300px;
+    border: 6px solid black;
+}
+.img-container {
+    display: inline-block;
+    width: 225px;
+    text-align: center;
+    margin: 0.6rem;
+}
+.img-container p {
+    font-size: 0.8rem;
+    font-family: 'Quattrocento', serif;
+}
+.last p {
+    margin-bottom: 2rem; 
+}
+.img-container h3 {
+    font-family: 'Quattrocento', serif;
+    font-size: 1rem;
+}
+.img-price {
+    font-size: 0.8rem;
+    color: firebrick;
+}
+
+/* Bio */
+#bio-body {
+    position: relative;
+    top: 10rem;
+    max-width: 58%;
+    margin: auto;
+    height: 120vh;
+}
+.bio-image1 {
+    width: 14vw;
+    min-width: 170px;
+    border: 6px solid black;
+    float: left;
+    position: relative;
+    margin-bottom: 2%;
+    right: 2.8%;
+}
+.bio-image2 {
+    width: 14vw;
+    min-width: 150px;
+    border: 6px solid black;
+    float: right;
+    position: relative;
+    left: 3%;
+    margin: 0 0 1.2% 0;
+}
+.bio-image3 {
+    width: 14vw;
+    min-width: 150px;
+    border: 6px solid black;
+    float: left;
+    position: relative;
+    right: 4%;
+    margin-bottom: 6%;
+}
+.bio-text {
+    font-family: 'Quattrocento', serif;
+    font-size: 1.2rem;
+    margin: auto;
+    padding: 0 4%;
+}
+.bio-text::first-letter {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.bio-thanks {
+    text-align: center;
+    font-size: 1.1rem;
+    max-width: 56%;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+/* Shop */
+#shop-body {
+    position: relative;
+    top: 14rem;
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Quattrocento', serif;
+    line-height: 1.4;
+}
+#shop-body h1 {
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 2.1rem;
+}
+#shop-body a {
+    color: blue;
+}
+.price {
+    color: brown;
+    font-weight: 700;
+}
+
+.shop-images img {
+    width: 12vw;
+    min-width: 220px;
+    border: 6px black solid;
+    margin: auto;
+}
+.shop-images .shop-img{
+    margin: 0 2rem 2rem 0;
+}
+.shop-images .shop-img .last{
+    margin: 2rem;
+}
+
+
+/* Exhibitions */
+.current {
+    display: block;
+    color: brown;
+    position: relative;
+    top: 10rem;
+    text-align: center;
+    font-size: 1.1rem;
+    max-width: 50%;
+    margin: auto;
+}
+.exhibitions-container {
+    width: 100vw;
+    margin: auto;
+    position: relative;
+    top: 10rem;
+    text-align: center;
+}
+.exhibitions-container h1 {
+    font-size: 1.2rem;
+    margin-top: 3rem;
+}
+.exhibitions-container h2 {
+    font-size: 1rem;
+}
+.exhibitions-container h3 {
+    font-size: 0.9rem;
+}
+.exhibitions-images {
+    text-align: center;
+    max-width: 610px;
+    margin: auto;
+}
+.exhibitions-images img {
+    max-width: 280px;
+    border: 6px black solid;
+    margin-top: 1rem;
+}
+.ibero-link {
+    color: blue;
+}
+
+
+/* Footer */
+.footer {
+    width: 100%;
+    height: 2rem;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background: #f4f7f8;
+    z-index: 2;
+}
+.footer p {
+    color: black;
+    font-size: 0.6rem;
+    vertical-align: middle;
+    position: relative;
+    bottom: -0.9rem;
+}

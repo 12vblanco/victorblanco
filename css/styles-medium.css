@@ -1,0 +1,27 @@
+.logo-text {
+    margin-left: 8px;
+}
+.menu-left {
+    width: auto;
+}
+.menu-right {
+    width: auto;
+}
+.menu li {
+    display: inline-block;
+    margin-bottom: 6px;
+    padding: 0 4px;
+}
+.fa-instagram {
+    font-size: 1.2rem;
+}
+.fa-envelope {
+    font-size: 1.2rem;
+}
+/* Showcase */
+.showcase {
+    top: 8rem;
+    max-width: 80vw;
+}
+
+/* Bio */
