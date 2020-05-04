@@ -229,6 +229,7 @@ body {
     font-size: 1rem;
     max-width: 40%;
     margin: auto;
+    margin-bottom: 2rem;
 }
 .exhibitions-container {
     width: 100vw;
