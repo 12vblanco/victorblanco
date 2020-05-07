@@ -138,7 +138,7 @@
 .exhibitions-images img {
     max-width: 280px;
     border: 4px black solid;
-    margin: 1rem;
+    margin: 0.5rem;
 }
 
 /* Footer */
