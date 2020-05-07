@@ -1,27 +1,21 @@
-.logo-text {
-    margin-left: 8px;
-}
-.menu-left {
-    width: auto;
-}
-.menu-right {
-    width: auto;
-}
-.menu li {
-    display: inline-block;
-    margin-bottom: 6px;
-    padding: 0 4px;
-}
-.fa-instagram {
-    font-size: 1.2rem;
-}
-.fa-envelope {
-    font-size: 1.2rem;
-}
-/* Showcase */
-.showcase {
-    top: 8rem;
-    max-width: 80vw;
-}
-
 /* Bio */
+#bio-body {
+     max-width: 75%;
+}
+.bio-text {
+    font-family: 'Quattrocento', serif;
+    font-size: 1.1rem;
+    margin: auto;
+    padding: 0 4%;
+}
+.bio-text::first-letter {
+    font-size: 1.8rem;
+}
+.bio-thanks {
+    text-align: center;
+    font-size: 1rem;
+    max-width: 35%;
+}
+#bio-body {
+    height: 95vh;
+}
