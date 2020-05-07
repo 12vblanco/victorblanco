@@ -223,8 +223,7 @@ body {
     margin-bottom: 3rem;
 }
 .exhibitions-images img {
-    max-width: 330px;
-    width: 330px;
+    max-width: 320px;
     border: 4px black solid;
     margin: 1rem;
 }
