@@ -78,8 +78,11 @@ body {
 .fa-envelope {
     font-size: 1.4rem;
     vertical-align: middle;
-
 }
+.off a {
+    color: rgb(165, 165, 167)
+}
+
 .menu-item a:hover,
 .menu-item a:active,
 .fa-instagram:hover,
