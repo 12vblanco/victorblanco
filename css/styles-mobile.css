@@ -117,7 +117,7 @@
 }
 .exhibitions-container {
     width: 85vw;
-    top: 6rem;
+    top: 9rem;
 }
 .exhibitions-container h1{
     font-size: 1.2rem;    
@@ -147,8 +147,12 @@
     width: 70%;
     top: 9rem;
   }
+  .terms {
+      color: #a52a2a;
+  }
   .terms-title {
     font-size: 1rem;
+    color: #a52a2a;
   }
   .terms-text {
     font-size: 0.9rem;
