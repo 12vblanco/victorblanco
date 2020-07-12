@@ -140,6 +140,17 @@
     margin: 0.5rem;
 }
 
+/* Contact */
+#contact {
+    position: relative;
+    top: 8rem;
+    text-align: center;
+    margin: auto;
+}
+#contact p {
+    padding: 0.4rem;
+}
+
 /* Terms */
 #terms-content {
     font-size: 1.2rem;
