@@ -37,13 +37,12 @@
 /* Showcase */
 .showcase {
     top: 8.2rem;    
-    max-width: 350px;
+    max-width: 100%;
  
 }
 .showcase-img {
     width: 300px;
     height: 400px;
-    border: 10px solid white;
 }
 .img-container {
     width: 320px;

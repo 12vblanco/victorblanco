@@ -100,23 +100,23 @@ body {
     display: flex;
     position: relative;
     top: 8rem;    
-    max-width: 900px;
+    max-width: 1200px;
     text-align: center;
     margin: auto;
 }
 .showcase-galery {
-    flex-wrap: wrap;
-    max-width: 850px;
+    display: inline-block;
+    max-width: 1200px;
 }
 
 .showcase-img {
-    width: 250px;
-    border: 10px solid white;
+    display: inline-block;
+    width: 310px;
 }
 
 .img-container {
     display: inline-block;
-    width: 260px;
+    width: 300px;
     text-align: center;
     margin: 0.6rem;
 }
@@ -147,15 +147,14 @@ body {
 .bio-image1 {
     width: 14vw;
     min-width: 170px;
-    border: 6px solid white;
     float: left;
     position: relative;
     margin-bottom: 2%;
     right: 2.8%;
 }
 .bio-image2 {
-    width: 14vw;
-    min-width: 150px;
+    width: 13vw;
+    min-width: 140px;
     border: 6px solid white;
     float: right;
     position: relative;
