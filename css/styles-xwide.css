@@ -145,26 +145,32 @@ body {
     height: 110vh;
 }
 .bio-image1 {
-    width: 14vw;
+    width: 12vw;
     min-width: 170px;
+    border: 6px solid white;
+    border-radius: 50%;
     float: left;
     position: relative;
     margin-bottom: 2%;
     right: 2.8%;
 }
 .bio-image2 {
-    width: 13vw;
-    min-width: 140px;
+    width: 12vw;
+    min-width: 170px;
     border: 6px solid white;
+    border-radius: 50%;
+
     float: right;
     position: relative;
     left: 3%;
     margin: 0 0 1.2% 0;
 }
 .bio-image3 {
-    width: 14vw;
-    min-width: 150px;
+    width: 12vw;
+    min-width: 170px;
     border: 6px solid white;
+    border-radius: 50%;
+
     float: left;
     position: relative;
     right: 4%;
