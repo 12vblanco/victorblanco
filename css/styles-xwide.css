@@ -90,6 +90,7 @@ body {
 .fa-envelope:hover,
 .fa-envelope:active {
     color: #a52a2a;
+    transition: 0.3s linear;
 }
 .active-menu a{
     color: #a52a2a;
