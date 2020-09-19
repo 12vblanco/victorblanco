@@ -1,6 +1,6 @@
 /* Bio */
 #bio-body {
-     max-width: 75%;
+     max-width: 80%;
 }
 .bio-text {
     font-family: 'Quattrocento', serif;
@@ -14,8 +14,8 @@
 .bio-thanks {
     text-align: center;
     font-size: 1rem;
-    max-width: 35%;
+    max-width: 55%;
 }
-#bio-body {
-    height: 95vh;
+.bio-thanks p{
+    text-align: center;
 }

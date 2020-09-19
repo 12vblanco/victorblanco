@@ -139,10 +139,10 @@ body {
 /* Bio */
 #bio-body {
     position: relative;
-    top: 10rem;
+    top: 12rem;
     max-width: 58%;
     margin: auto;
-    height: 110vh;
+    height: auto;
 }
 .bio-image1 {
     width: 12vw;
@@ -343,9 +343,14 @@ body {
 /* Contact */
 #contact {
     position: relative;
-    top: 13rem;
+    top: 10rem;
     text-align: center;
     margin: auto;
+    height: auto;
+}
+.prices{
+    position: relative;
+    margin-bottom: 2rem;
 }
 #contact p {
     padding: 0.4rem;
