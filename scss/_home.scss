@@ -1,0 +1,107 @@
+.showcase {
+    // display: flex;
+    position: relative;
+    top: 4rem;    
+    text-align: center;
+    margin: auto;
+
+    &__container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-bottom: 60px;
+
+        .cell__main {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            max-width: 340px;
+            min-width: 300px;
+            max-height: 453px;
+            margin: 10px 10px 60px 10px;
+            transition: all .5s;
+            backface-visibility: hidden;
+
+            &:hover {
+                transform: scale(1.02);
+                .cell__main-img {
+                    opacity: 0.3;
+                }
+                .cell__main-text {
+                    opacity: 1;
+                }
+            }
+
+            &-img {
+                width: 100%;
+                transition: all .5s;
+
+            }
+            &-text {
+                opacity: 0;
+                position: relative;
+                top: -400px;
+                left: 50%;
+                transform: translate(-50%);
+                max-width: 300px;
+                font-size: 20px;
+                font-weight: 500;
+                color:$color-dark;
+                transition: all 1s;
+                cursor: pointer;
+
+            }
+            &-btn {
+                position: absolute;
+                bottom: 10px;
+                left: 50%;
+                transform: translate(-50%);
+                background-color: rgba($color-dark, .8);
+                width: 130px;
+                padding: 6px 10px;
+                border-radius: 22px;
+                font-size: 18px;
+                transition: all .8s;
+                backface-visibility: hidden;
+
+                &:hover {
+                    background-color: rgba(#666, 1);
+                }
+                a {
+                color: $color-white;
+                transition: all .3s;
+
+                }
+                &:hover {
+                    a {
+                    color: $color-white;
+                    font-weight: 700;
+                    }
+                }
+            }
+            }
+            @mixin tilte__center {
+                position: absolute;
+                left: 50%;
+                transform: translate(-50%);
+                width: 100%;
+                font-size: 20px;
+                color:$color-dark;
+                margin-bottom: 10px;
+            }
+            .title {
+                @include tilte__center;
+                bottom: -40px;
+            }
+            .title-sub {
+                @include tilte__center;
+                bottom: -55px;
+                font-size: 13px;
+            }
+        
+        }
+
+}
