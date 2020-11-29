@@ -5,6 +5,13 @@
     margin: 0 auto;
     padding-top: 6rem;
 
+    @include respond(tp) {
+        padding-top: 4rem;
+    }
+    @include respond(ph) {
+        padding-top: 2rem;
+    }
+
     &__img1, &__img2, &__img3 {
         border-radius: 50%;
         max-width: 22rem;
