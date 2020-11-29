@@ -14,6 +14,10 @@
         margin: 0 auto;
         margin-bottom: 60px;
 
+        .hidden {
+            display: none;
+        }
+
         .cell__main {
             position: relative;
             display: flex;
