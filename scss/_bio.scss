@@ -25,6 +25,13 @@
     &__text {
         font-size: 1.8rem;
         padding: 4rem;
+
+        @include respond(tp) {
+            font-size: 2.1rem;
+        }
+        @include respond(ph) {
+            font-size: 2.4rem;
+        }
     }
 
     &__thanks {
