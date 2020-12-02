@@ -60,11 +60,6 @@
                 color:$color-dark;
                 transition: all 1s;
                 cursor: pointer;
-                @include respond(tp){
-                    a {
-                        display: none;
-                    }
-                }
             }
             &-btn {
                 position: absolute;
